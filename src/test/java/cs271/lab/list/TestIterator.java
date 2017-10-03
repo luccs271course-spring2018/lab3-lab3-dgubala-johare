@@ -81,7 +81,8 @@ public class TestIterator {
     // Done using assertEquals and Arrays.asList, express which values are left in the list
     // See TestList.java for examples of how to use Arrays.asList; also see the Java Arrays
     // class for more information
-    assertEquals(Arrays.asList(33,44,55,66),list);
+    assertEquals(Array.asList(33,44,55,66),list);
+    
   }
 
   @Test

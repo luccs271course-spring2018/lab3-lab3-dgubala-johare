@@ -124,12 +124,8 @@ public class TestList {
     // 1) assert that list contains all five different numbers added
     assertEquals(true, list.containsAll(Arrays.asList(33, 77, 44, 55, 66)));
     // 2) assert that list does not contain all of 11, 22, and 33
-
-    assertFalse(list.containsAll(Arrays.asList(11, 22, 33)));
-    //fail("Not yet implemented"); // remove this line when done
-
     assertEquals(false, list.containsAll(Arrays.asList(11, 22, 33)));
-
+    //fail("Not yet implemented"); // remove this line when done
   }
 
   @Test
