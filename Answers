@@ -1,0 +1,22 @@
+#ANSWERS
+
+#Q:Done also try with a LinkedList - does it make any difference?
+
+A: Yes, using a linkedlist allows the program to run faster.
+
+#Q: What does this method do? (regarding list.remove(5))
+
+A: This method gets rid of the value at indez 5 and moves the values after 5 up.
+
+#Q: What does this one do?(regarding list.remove(Integer.valueOf(5));)
+
+A: Removes the first value of 5 and moves everything after that index up one.
+
+#Q: What happens if you use list.remove(77)?
+
+A: When you use list.remove(77) you get an error.
+
+#Q: Which of the two lists performs better as the size increases?
+
+A: 
+
