@@ -11,7 +11,7 @@ public class TestPerformance {
 
   // TODO run test and record running times for SIZE = 10, 100, 1000, 10000, ...
   // (choose in conjunction with REPS below up to an upper limit where the clock
-  // running time is in the tens of seconds)/helpppo0
+  // running time is in the tens of seconds)
   // TODO refactor to DRY
   // which of the two lists performs better as the size increases?
 
