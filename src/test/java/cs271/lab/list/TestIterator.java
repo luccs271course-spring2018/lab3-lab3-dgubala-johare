@@ -76,7 +76,6 @@ public class TestIterator {
     while (i.hasNext()) {
       if (i.next() == 77) {
         i.remove(); // Done what happens if you use list.remove(77)?
-        // list.remove(77)  causes an error
       }
     }
     // Done using assertEquals and Arrays.asList, express which values are left in the list
