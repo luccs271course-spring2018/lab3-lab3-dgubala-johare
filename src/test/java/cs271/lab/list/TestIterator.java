@@ -1,3 +1,4 @@
+
 package cs271.lab.list;
 
 import static org.junit.Assert.assertEquals;
@@ -5,6 +6,7 @@ import static org.junit.Assert.assertFalse;
 import static org.junit.Assert.assertTrue;
 import static org.junit.Assert.fail;
 
+import java.util.Arrays;
 import java.util.ArrayList;
 import java.util.Iterator;
 import java.util.List;
@@ -81,7 +83,7 @@ public class TestIterator {
     // Done using assertEquals and Arrays.asList, express which values are left in the list
     // See TestList.java for examples of how to use Arrays.asList; also see the Java Arrays
     // class for more information
-    assertEquals(Array.asList(33,44,55,66),list);
+    assertEquals(Arrays.asList(33, 44, 55, 66, 77), list);
     
   }
 
