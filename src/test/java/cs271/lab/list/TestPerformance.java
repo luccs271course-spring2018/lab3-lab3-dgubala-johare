@@ -8,12 +8,19 @@ import org.junit.Before;
 import org.junit.Test;
 
 public class TestPerformance {
+  
 
   // TODO run test and record running times for SIZE = 10, 100, 1000, 10000, ...
+  long start;
   // (choose in conjunction with REPS below up to an upper limit where the clock
   // running time is in the tens of seconds)
   // TODO refactor to DRY
   // which of the two lists performs better as the size increases?
+  
+  @Before
+  public void start(){
+    start = System.currentTimeMillis();
+  }
 
   private final int SIZE = 10;
 
@@ -26,6 +33,7 @@ public class TestPerformance {
   private List<Integer> linkedList;
 
   @Before
+  
   public void setUp() throws Exception {
     arrayList = new ArrayList<Integer>(SIZE);
     linkedList = new LinkedList<Integer>();
@@ -71,5 +79,10 @@ public class TestPerformance {
     for (int r = 0; r < REPS; r++) {
       sum += arrayList.get(r % SIZE);
     }
+  }
+  @After
+  public void end()
+  {
+    System.out.println(System.currentTimeMillis() - start);
   }
 }
